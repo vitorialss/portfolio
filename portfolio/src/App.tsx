@@ -1,6 +1,7 @@
 import Navbar from "./Navbar"
+import Skills from "./Skills"
 import Home from "./home"
-import Wave from "./wave"
+
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
     <Navbar />
     <Home />
-    <Wave />
+    
+    <Skills />
       
     </>
   )
