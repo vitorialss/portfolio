@@ -1,11 +1,14 @@
 import { BsFiletypeCss } from "react-icons/bs";
 import { RiEnglishInput } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 import {
   BiLogoJavascript,
   BiLogoReact,
   BiLogoTypescript,
+  BiLogoMongodb,
 } from "react-icons/bi";
+
 
 import { Card, Container } from "./Card";
 
@@ -21,13 +24,17 @@ import wave from "./assets/wave-haikeii.svg";
 
 
 export default function Skills() {
+
+  const iconStyles = {fontSize: "1.5em" };
   const Cardlist = [
-    { title: "CSS", icon: <BsFiletypeCss /> },
-    { title: "Javascript", icon: <BiLogoJavascript /> },
-    { title: "React.js", icon: <BiLogoReact /> },
-    { title: "Inglês", icon: <RiEnglishInput /> },
-    { title: "Typescript", icon: <BiLogoTypescript /> },
-    { title: "Node", icon: <FaNodeJs /> },
+    { title: "CSS", icon: <BsFiletypeCss style={iconStyles}/> },
+    { title: "Javascript", icon: <BiLogoJavascript style={iconStyles} /> },
+    { title: "React.js", icon: <BiLogoReact style={iconStyles} /> },
+    { title: "Inglês", icon: <RiEnglishInput style={iconStyles} /> },
+    { title: "Typescript", icon: <BiLogoTypescript style={iconStyles} /> },
+    { title: "Node", icon: <FaNodeJs style={iconStyles}/> },
+    { title: "MongoDB", icon: <BiLogoMongodb style={iconStyles} /> },
+    { title: "MySQL", icon: <GrMysql style={iconStyles} /> },
   ];
   return (<>
   <Wave />
