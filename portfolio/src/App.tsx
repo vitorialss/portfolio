@@ -1,3 +1,4 @@
+import Hobbies from "./Hobbies"
 import Navbar from "./Navbar"
 import Skills from "./Skills"
 import Home from "./home"
@@ -12,6 +13,7 @@ function App() {
     <Home />
     
     <Skills />
+    <Hobbies />
       
     </>
   )

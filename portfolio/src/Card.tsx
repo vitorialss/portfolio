@@ -10,25 +10,31 @@ export const Container = styled.div`
   align-items: center;
   gap: 20px;
   width: 100%;
+  padding-bottom:80px;
 
   div {
     display: flex;
     gap: 10px;
     width: 100%;
   }
+
+  h2 {
+    margin-bottom: 15vh;
+  }
 `;
 export const Card = styled.div`
   background-color: #EA8FEA;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   gap: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: end;
   width: 20%;
-  height: 100px;
+  height: 20vh;
   font-size: 1.2em;
+  text-align: end;
   
 
 `;
