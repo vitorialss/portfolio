@@ -1,6 +1,7 @@
 type TextFieldTypeProps = {
     label: string;
     type: string;
+
    }
 
 const TextField = (props:TextFieldTypeProps) => {
@@ -10,7 +11,7 @@ const TextField = (props:TextFieldTypeProps) => {
             <label>
                 {props.label}
             </label>
-            <input type={props.type}/>
+            <input type={props.type} />
         </div>
     )
 }

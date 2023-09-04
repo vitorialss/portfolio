@@ -1,3 +1,5 @@
+import Contact from "./Contact"
+import Experience from "./Experience"
 import Hobbies from "./Hobbies"
 import Navbar from "./Navbar"
 import Skills from "./Skills"
@@ -14,6 +16,8 @@ function App() {
     
     <Skills />
     <Hobbies />
+    <Contact />
+    <Experience />
       
     </>
   )
