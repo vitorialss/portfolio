@@ -1,49 +1,23 @@
 import TextField from "./TextField";
-import { useState } from "react";
-import { useForm } from "react-hook-form";
-import { ErrorMessage } from "@hookform/error-message";
+import Image from "./assets/image-from-rawpixel-id-7524994-jpeg.jpg";
+import { ChangeEvent, useState } from "react";
+
+import ReactDOM from "react-dom";
+import ContactBox from "./contact.module";
 
 export default function Contact() {
-  const {
-    reset,
-    register,
-    formState: { errors },
-    handleSubmit,
-  } = useForm();
-
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const onSubmit = (data: any) => {
-    setIsSubmitted(true);
-    reset();
-  };
-
-  if (isSubmitted) {
-    return (
-      <>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="#10B981"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-        <h4>Email enviado</h4>
-        <button onClick={(e) => setIsSubmitted(false)}>Back to Form</button>
-      </>
-    );
-  }
+  const [nome, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [assunto, setAssunto] = useState("");
+  const [mensagem, setMensagem] = useState("");
 
   return (
-    <div>
+    <ContactBox>
       <div>
-        <img src="" alt="" />
+        <img
+          src={Image}
+          alt="foto de uma mão segurando um telefone rosa antigo"
+        />
       </div>
       <div>
         <h2>Contato</h2>
@@ -51,40 +25,39 @@ export default function Contact() {
         <p>
           Preencha o formulário e entrarei em contato o mais rápido possível.
         </p>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <p>{nome}</p>
+        <form>
           <TextField
             label="Nome"
             type="text"
-            
-            {...register("name", {
-              required: "O campo precisa estar preenchido.",
-            })}
+            value={nome}
+            setStatus={setNome}
           />
-          <ErrorMessage errors={errors} name="name" />
+
           <TextField
             label="E-mail"
             type="email"
-            
-            {...register("email", {
-              required: "O campo precisa estar preenchido.",
-            })}
+            value={email}
+            setStatus={setNome}
           />
-          <ErrorMessage errors={errors} name="email" />
-          <TextField label="Assunto" type="text"  />
+
+          <TextField
+            label="Assunto"
+            type="text"
+            value={assunto}
+            setStatus={setNome}
+          />
           <TextField
             label="Mensagem"
             type="text"
-           
-            {...register("message", {
-              required: "O campo precisa estar preenchido.",
-            })}
+            value={mensagem}
+            setStatus={setNome}
+            
           />
-          <ErrorMessage errors={errors} name="message" />
-          <input type="submit">Enviar mensagem</input>
+
+          <button type="submit">Enviar mensagem </button>
         </form>
       </div>
-    </div>
+    </ContactBox>
   );
-};
-
-
+}

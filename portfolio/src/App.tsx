@@ -16,8 +16,9 @@ function App() {
     
     <Skills />
     <Hobbies />
-    <Contact />
     <Experience />
+    <Contact />
+    
       
     </>
   )
