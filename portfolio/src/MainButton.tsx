@@ -7,6 +7,7 @@ const Button = styled.button`
   border: solid #EA8FEA;
   font-size: 1rem;
   border-radius: 50px;
+  `
   
 
 const MainButton = ({ name }: { name: string }) => {
