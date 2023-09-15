@@ -1,6 +1,9 @@
+import GradeBox from "./Graduation.module";
+
+
 export default function Grade() {
   return (
-    <>
+    <GradeBox>
       <h2>Formação</h2>
 
       <div>
@@ -17,6 +20,6 @@ export default function Grade() {
           <p>2022</p>
         </div>
       </div>
-    </>
+    </ GradeBox>
   );
 }

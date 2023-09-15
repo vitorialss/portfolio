@@ -1,4 +1,4 @@
-import NavStyle from "./NavStyle.jsx";
+import NavStyle from "./NavStyle.js";
 
 export default function Navbar() {
   return (

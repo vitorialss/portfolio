@@ -19,7 +19,7 @@ export const Container = styled.div`
   }
 
   h2 {
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
   }
 `;
 export const Card = styled.div`

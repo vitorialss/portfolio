@@ -1,9 +1,7 @@
 import TextField from "./TextField";
 import Image from "./assets/image-from-rawpixel-id-7524994-jpeg.jpg";
-import { ChangeEvent, useState } from "react";
-
-import ReactDOM from "react-dom";
-import ContactBox from "./contact.module";
+import { useState } from "react";
+import ContactBox from "./Contact.module";
 
 export default function Contact() {
   const [nome, setNome] = useState("");

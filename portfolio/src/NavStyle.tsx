@@ -7,6 +7,7 @@ const NavStyle = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 3rem;
+  font-size: 1.1rem;
 
   > p:first-child {
     font-family: "Rancho", cursive;

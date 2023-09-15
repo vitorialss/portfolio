@@ -9,10 +9,13 @@ const MainHome = styled.div`
 
   h1 {
     font-family: "Laila", sans-serif;
+    font-size: 3rem;
   }
 
   p {
     margin-top: 2rem;
+    font-size: 1.5rem;
+
   }
 
   ul {
