@@ -10,8 +10,8 @@ const Button = styled.button`
   `
   
 
-const MainButton = ({ name, type }: { name: string, type: "button"|"submit"|"reset"|undefined }) => {
+const SecundaryButton = ({ name, type }: { name: string, type: "button"|"submit"|"reset"|undefined }) => {
   return <Button type={type} >{name}</Button>;
 };
 
-export default MainButton;
+export default SecundaryButton;

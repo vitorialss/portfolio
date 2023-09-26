@@ -2,6 +2,7 @@ import TextField from "./TextField";
 import Image from "./assets/image-from-rawpixel-id-7524994-jpeg.jpg";
 import { useState } from "react";
 import ContactBox from "./Contact.module";
+import MainButton from "./MainButton";
 
 export default function Contact() {
   const [nome, setNome] = useState("");
@@ -53,7 +54,7 @@ export default function Contact() {
             
           />
 
-          <button type="submit">Enviar mensagem </button>
+          <MainButton name="Enviar Mensagem" type="submit" />
         </form>
       </div>
     </ContactBox>

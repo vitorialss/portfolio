@@ -30,6 +30,10 @@ export default function Home() {
             </a>
           </li>
         </ul>
+        <h3>Sobre mim</h3>
+        <p>*Tenho 27 anos</p>
+        <p>*Sou de Aracaju-SE</p>
+        <p>*Estudo programação há 2 anos</p>
       </div>
       
     </MainHome>

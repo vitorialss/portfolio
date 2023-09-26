@@ -11,13 +11,35 @@ const NavStyle = styled.div`
 
   > p:first-child {
     font-family: "Rancho", cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   ul {
     display: flex;
     list-style: none;
     gap: 2rem;
+  }
+  li {
+    text-decoration: none;
+    position: relative;
+  }
+  li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #18272f;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  li:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
   }
 
   li:hover {

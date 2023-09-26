@@ -16,7 +16,7 @@ const Experience = () => {
           <p>criado com React</p>
           <div className="buttons">
             <button>Repositório</button>
-            <MainButton name="Ver demo" ></MainButton>
+            <MainButton type="button" name="Ver demo" />
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@ const Experience = () => {
           <p>criado com React</p>
           <div className="buttons">
             <button>Repositório</button>
-            <MainButton name="Ver demo" ></MainButton>
+            <MainButton type="button" name="Ver demo" ></MainButton>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Experience = () => {
           <p>criado com React</p>
           <div className="buttons">
             <button>Repositório</button>
-            <MainButton name="Ver demo" ></MainButton>
+            <MainButton type="button" name="Ver demo" ></MainButton>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Experience = () => {
           <p>criado com React</p>
           <div className="buttons">
             <button>Repositório</button>
-            <MainButton name="Ver demo" ></MainButton>
+            <MainButton type="button" name="Ver demo" ></MainButton>
           </div>
         </div>
       </div>
