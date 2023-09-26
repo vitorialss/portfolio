@@ -22,6 +22,11 @@ const NavStyle = styled.div`
   li {
     text-decoration: none;
     position: relative;
+
+    a {
+      text-decoration: none;
+      color: #18272f;
+    }
   }
   li::before {
     content: "";
@@ -45,6 +50,8 @@ const NavStyle = styled.div`
   li:hover {
     cursor: pointer;
     font-weight: 700;
+
+    
   }
 
   > p:last-child {

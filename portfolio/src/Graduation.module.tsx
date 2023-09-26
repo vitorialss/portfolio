@@ -22,6 +22,12 @@ const GradeBox = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
+
+
+      img{
+        width: 100%;
+        margin-bottom: 10px;
+      }
     }
   }
 `;

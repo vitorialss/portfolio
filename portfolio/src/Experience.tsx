@@ -2,8 +2,9 @@ import styled from "styled-components";
 import Image from "./assets/image-from-rawpixel-id-3402398-jpeg.jpg";
 import ExperienceBox from "./Experience.module";
 import MainButton from "./MainButton";
+import SecundaryButton from "./SecundaryButton";
 
-const ButtonOne = styled.button``;
+
 
 const Experience = () => {
   return (
@@ -15,7 +16,7 @@ const Experience = () => {
           <h5>Jogo da velha</h5>
           <p>criado com React</p>
           <div className="buttons">
-            <button>Repositório</button>
+            <SecundaryButton type="button" name="Repositório" />
             <MainButton type="button" name="Ver demo" />
           </div>
         </div>
@@ -26,7 +27,7 @@ const Experience = () => {
           <h5>Jogo da velha</h5>
           <p>criado com React</p>
           <div className="buttons">
-            <button>Repositório</button>
+          <SecundaryButton type="button" name="Repositório" />
             <MainButton type="button" name="Ver demo" ></MainButton>
           </div>
         </div>
@@ -37,7 +38,7 @@ const Experience = () => {
           <h5>Jogo da velha</h5>
           <p>criado com React</p>
           <div className="buttons">
-            <button>Repositório</button>
+          <SecundaryButton type="button" name="Repositório" />
             <MainButton type="button" name="Ver demo" ></MainButton>
           </div>
         </div>
@@ -48,7 +49,7 @@ const Experience = () => {
           <h5>Jogo da velha</h5>
           <p>criado com React</p>
           <div className="buttons">
-            <button>Repositório</button>
+          <SecundaryButton type="button" name="Repositório" />
             <MainButton type="button" name="Ver demo" ></MainButton>
           </div>
         </div>

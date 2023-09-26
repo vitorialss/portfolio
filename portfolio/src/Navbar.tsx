@@ -7,7 +7,7 @@ export default function Navbar() {
 
       <ul>
         <li>
-          <a href="#skill">Sobre mim</a>
+          <a href="">Sobre mim</a>
         </li>
         <li>
           <a>Skills</a>
