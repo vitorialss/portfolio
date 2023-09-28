@@ -1,10 +1,21 @@
+import styled from "styled-components";
+
+const Rodape = styled.div`
+    display: flex;
+    height: 100px;
+    justify-content:center;
+    align-items: center;
+
+`
 
 
 const Footer = () => {
     return (
-        <div>
-            <h4> Desenvolvido por Vitoria Leilanea dos Santos</h4>
-        </div>
+        <Rodape>
+            <h4> Desenvolvido por <span>Vitoria Leilanea dos Santos</span></h4>
+        </Rodape>
 
     )
 }
+
+export default Footer;

@@ -1,5 +1,6 @@
 import Contact from "./Contact";
 import Experience from "./Experience";
+import Footer from "./Footer";
 import Grade from "./Graduation";
 import Hobbies from "./Hobbies";
 import Navbar from "./Navbar";
@@ -16,6 +17,8 @@ function App() {
       <Grade />
       <Experience />
       <Contact />
+      <Footer />
+
     </>
   );
 }
