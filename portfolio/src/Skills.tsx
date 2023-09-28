@@ -39,7 +39,7 @@ export default function Skills() {
   return (<>
   <Wave />
     
-      <Container>
+      <Container id="skills">
         <h2>Skills</h2>
 
         <div>

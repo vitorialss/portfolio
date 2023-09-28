@@ -25,7 +25,7 @@ export default function Hobbies() {
 
     return (
         <>
-      <Container>
+      <Container id="hobbies">
         <h2>Hobbies</h2>
 
         <div>

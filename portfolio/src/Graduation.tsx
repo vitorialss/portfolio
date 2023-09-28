@@ -3,7 +3,7 @@ import Image from "./assets/image-from-rawpixel-id-3402398-jpeg.jpg";
 
 export default function Grade() {
   return (
-    <GradeBox>
+    <GradeBox id="formacao">
       <h2>Formação</h2>
 
       <div>

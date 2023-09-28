@@ -8,7 +8,7 @@ import SecundaryButton from "./SecundaryButton";
 
 const Experience = () => {
   return (
-    <ExperienceBox>
+    <ExperienceBox id="projetos">
       <h2>Experiência</h2>
       <div>
         <img src={Image} alt="" />

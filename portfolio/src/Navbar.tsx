@@ -7,19 +7,19 @@ export default function Navbar() {
 
       <ul>
         <li>
-          <a href="">Sobre mim</a>
+          <a href="#">Sobre mim</a>
         </li>
         <li>
-          <a>Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a>Hobbies</a>
+          <a href="#hobbies">Hobbies</a>
         </li>
         <li>
-          <a>Formação</a>
+          <a href="#formacao">Formação</a>
         </li>
         <li>
-          <a>Projetos</a>
+          <a href="#projetos">Projetos</a>
         </li>
       </ul>
       <p>vick.leilanea@gmail.com</p>
