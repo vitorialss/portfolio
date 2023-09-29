@@ -37,20 +37,20 @@ export default function Contact() {
             label="E-mail"
             type="email"
             value={email}
-            setStatus={setNome}
+            setStatus={setEmail}
           />
 
           <TextField
             label="Assunto"
             type="text"
             value={assunto}
-            setStatus={setNome}
+            setStatus={setAssunto}
           />
           <TextField
             label="Mensagem"
             type="text"
             value={mensagem}
-            setStatus={setNome}
+            setStatus={setMensagem}
             
           />
 

@@ -42,6 +42,7 @@ export default function Home() {
           <p>Tenho 27 anos</p>
           <p>Sou de Aracaju-SE</p>
           <p>Estudo programação há 2 anos</p>
+          <p>Pretendo em breve terminar de me especializar em back-end</p>
         </div>
       </div>
     </MainHome>
