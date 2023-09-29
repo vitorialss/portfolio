@@ -6,15 +6,21 @@ const ExperienceBox = styled.div`
   gap: 2rem;
   align-items: center;
   padding: 1.5rem;
-  margin: 2rem 0 4rem 1rem;
- 
+    background: rgb(245, 219, 228);
+  background: linear-gradient(
+    180deg,
+    rgba(245, 219, 228, 1) 0%,
+    rgba(198, 77, 88, 1) 100%
+  );
+  width: 100%;
 
   .inverse img {
     order: 2;
   }
   .inverse div {
-    align-items: flex-end;
+    align-items: center;
     order: 1;
+     
 
     .buttons {
       justify-content: flex-end;
@@ -38,6 +44,7 @@ const ExperienceBox = styled.div`
 
       h5 {
         font-size: 1.5rem;
+        margin-bottom: 1rem;
       }
 
       .buttons {

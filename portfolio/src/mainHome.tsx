@@ -15,7 +15,10 @@ const MainHome = styled.div`
   p {
     margin-top: 2rem;
     font-size: 1.5rem;
-
+  }
+  a {
+    text-decoration: none;
+    color: #18272f;
   }
 
   ul {
@@ -30,27 +33,35 @@ const MainHome = styled.div`
   }
 
   li::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  border-radius: 4px;
-  background-color: #18272F;
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .3s ease-in-out;
-}
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #18272f;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
 
-li:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
+  li:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
 
-  li:hover{
+  li:hover {
     cursor: pointer;
     font-weight: 700;
+  }
+
+  #aboutMe {
+    margin-top: 2rem;
+    p {
+      font-size: 1rem;
+      margin-top: 0;
+    }
   }
 `;
 

@@ -1,7 +1,6 @@
 import vetor from "./assets/Vector.png";
 import MainHome from "./mainHome";
 
-
 export default function Home() {
   return (
     <MainHome>
@@ -13,13 +12,21 @@ export default function Home() {
 
         <ul>
           <li>
-            <a>
+            <a
+              href="https://github.com/vitorialss"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github <img src={vetor} />{" "}
             </a>
           </li>
 
           <li>
-            <a>
+            <a
+              href="https://www.linkedin.com/in/vitoria--santos-/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Linkedin <img src={vetor} />
             </a>
           </li>
@@ -30,12 +37,13 @@ export default function Home() {
             </a>
           </li>
         </ul>
-        <h3>Sobre mim</h3>
-        <p>*Tenho 27 anos</p>
-        <p>*Sou de Aracaju-SE</p>
-        <p>*Estudo programação há 2 anos</p>
+        <div id="aboutMe">
+          <h3>Sobre mim</h3>
+          <p>Tenho 27 anos</p>
+          <p>Sou de Aracaju-SE</p>
+          <p>Estudo programação há 2 anos</p>
+        </div>
       </div>
-      
     </MainHome>
   );
 }

@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import Image from "./assets/image-from-rawpixel-id-3402398-jpeg.jpg"
 
 const ContactBox = styled.div`
   display: flex;
-  background-image: url(${Image});
+  background-color: #039995;
 
   div {
     display: flex;
@@ -33,7 +32,6 @@ const ContactBox = styled.div`
 
     }
      button{
-            padding: 2rem;
             align-self: center;
      }
 
