@@ -10,7 +10,7 @@ const Experience = () => {
   return (
     <ExperienceBox id="projetos">
       <h2>Experiência</h2>
-      <div>
+      <div className="box-experience">
         <img src={Projeto1} alt="" />
         <div>
           <h5>E-commerce</h5>
@@ -33,7 +33,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="inverse">
+      <div className="box-experience inverse">
         <img src={Projeto2} alt="" />
         <div>
           <h5>Formulário de cadastro</h5>
@@ -56,7 +56,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="box-experience">
         <img src={Projeto3} alt="" />
         <div>
           <h5>Jogo da velha</h5>
@@ -79,7 +79,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="inverse">
+      <div className="box-experience inverse">
         <img src={Projeto4} alt="" />
         <div>
           <h5>Calculadora React</h5>

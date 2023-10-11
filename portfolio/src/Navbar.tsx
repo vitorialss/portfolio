@@ -22,7 +22,7 @@ export default function Navbar() {
           <a href="#projetos">Projetos</a>
         </li>
       </ul>
-      <p>vick.leilanea@gmail.com</p>
+      <p className="email">vick.leilanea@gmail.com</p>
     </NavStyle>
   );
 }

@@ -21,6 +21,38 @@ export const Container = styled.div`
   h2 {
     margin-bottom: 10vh;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    
+      flex-wrap: wrap;
+      width: 100%;
+      
+    
+      .skill-div {
+        flex-wrap: wrap;
+      width: 100%;
+    
+
+      div{
+        width:30%;
+      }
+      }
+    }
+    @media screen and (max-width: 767px) {
+       
+       .skill-div {
+         flex-wrap: wrap;
+       width: 100%;
+     
+ 
+       div {
+         width:45%;
+       }
+       }
+   }
+
+
+      
 `;
 export const Card = styled.div`
   background-color: #EA8FEA;
@@ -36,5 +68,5 @@ export const Card = styled.div`
   font-size: 1.2em;
   text-align: end;
   
-
+ 
 `;

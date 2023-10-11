@@ -63,6 +63,12 @@ const MainHome = styled.div`
       margin-top: 0;
     }
   }
+
+  @media screen and (max-width: 767px) {
+    ul {
+      flex-direction:column;
+    }
+  }
 `;
 
 export default MainHome;

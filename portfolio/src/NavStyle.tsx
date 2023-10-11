@@ -57,6 +57,30 @@ const NavStyle = styled.div`
   > p:last-child {
     font-weight: 700;
   }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .email {
+    display:none;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  height: auto;
+
+  ul{
+    flex-direction: column;
+  }
+
+
+ 
+}
+
 `;
 
 export default NavStyle;

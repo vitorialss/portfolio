@@ -12,14 +12,10 @@ import {
 
 import { Card, Container } from "./Card";
 
-import wave from "./assets/wave-haikeii.svg";
 
 
- function Wave() {
-    return (
-     <img src={wave} alt="" />
-    )
-}
+
+
 
 
 
@@ -37,12 +33,12 @@ export default function Skills() {
     { title: "MySQL", icon: <GrMysql style={iconStyles} /> },
   ];
   return (<>
-  <Wave />
+
     
       <Container id="skills">
         <h2>Skills</h2>
 
-        <div>
+        <div className="skill-div">
           {Cardlist.map((item, index) => (
             <Card key={index}>
               {item.icon}

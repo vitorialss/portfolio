@@ -6,7 +6,7 @@ const ExperienceBox = styled.div`
   gap: 2rem;
   align-items: center;
   padding: 1.5rem;
-    background: rgb(245, 219, 228);
+  background: rgb(245, 219, 228);
   background: linear-gradient(
     180deg,
     rgba(245, 219, 228, 1) 0%,
@@ -20,7 +20,6 @@ const ExperienceBox = styled.div`
   .inverse div {
     align-items: center;
     order: 1;
-     
 
     .buttons {
       justify-content: flex-end;
@@ -53,6 +52,35 @@ const ExperienceBox = styled.div`
         width: 100%;
         margin-top: 1rem;
       }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .box-experience {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      img {
+        width: 100%;
+      }
+
+      div {
+        width: auto;
+        align-items: center;
+
+        .buttons {
+          justify-content: initial;
+        }
+      }
+    }
+    .inverse img {
+      order: 1;
+    }
+    .inverse div {
+      align-items: center;
+      order: 2;
     }
   }
 `;

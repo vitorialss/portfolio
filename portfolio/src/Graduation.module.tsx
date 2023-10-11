@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 const GradeBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -10,7 +9,11 @@ const GradeBox = styled.div`
     180deg,
     rgba(185, 243, 228, 1) 0%,
     rgba(244, 218, 227, 1) 100%
+
+
+    
   );
+  
 
   h2 {
     margin: 1rem 0;
@@ -24,6 +27,8 @@ const GradeBox = styled.div`
     flex-wrap: wrap;
     height: auto;
 
+    
+
     div {
       max-width: 30%;
       background-color: #d78aa6;
@@ -33,12 +38,42 @@ const GradeBox = styled.div`
       margin-top: 10px;
       flex-wrap: nowrap;
 
+      
+      }
+
       img {
         width: 100%;
         margin-bottom: 10px;
       }
     }
-  }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      .box {
+        width: 100%;
+
+
+        div {
+          max-width: 45%;
+
+        }
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        div {
+          max-width: 80%;
+
+        }
+      }
+
+
+    }
 `;
 
 export default GradeBox;

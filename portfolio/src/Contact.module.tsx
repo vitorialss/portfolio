@@ -41,6 +41,14 @@ const ContactBox = styled.div`
       font-size: 2rem;
     }
   }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+
+
+    div {
+      width: 100%;
+    }
+  }
 `;
 
 export default ContactBox;

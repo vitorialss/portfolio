@@ -30,7 +30,7 @@ export default function Hobbies() {
       <Container id="hobbies">
         <h2>Hobbies</h2>
 
-        <div>
+        <div className="skill-div">
           {CardHobby.map((item, index) => (
             <Card key={index}>
               {item.icon}

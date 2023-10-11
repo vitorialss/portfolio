@@ -18,7 +18,9 @@ const Rodape = styled.div`
     font-weight: 700;
   }
 
-  img {
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    padding: 1rem;
   }
 `;
 
