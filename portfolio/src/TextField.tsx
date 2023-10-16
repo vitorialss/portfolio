@@ -3,11 +3,10 @@
 type TextFieldTypeProps = {
     label: string;
     type: string;
+    name: string;
     value: string;
     setStatus: React.Dispatch<React.SetStateAction<string>>;
-
-
-   }
+}
 
 const TextField = (props:TextFieldTypeProps) => {
 
@@ -16,7 +15,7 @@ const TextField = (props:TextFieldTypeProps) => {
             <label>
                 {props.label}
             </label>
-            <input type={props.type} value={props.value} onChange={(e) => props.setStatus(e.target.value)}/>
+            <input type={props.type} name={props.name} value={props.value} onChange={(e) => props.setStatus(e.target.value)}/>
         </div>
     )
 }

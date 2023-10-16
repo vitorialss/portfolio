@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <MainHome>
       <div>
-        <p>Ola, meu nome é</p>
+        <p>Olá, meu nome é</p>
         <h1>Vitoria Santos</h1>
 
-        <p>Sou desenvolvedora Front-end</p>
+        <p>Sou Desenvolvedora Frontend | HTML, CSS, JavaScript e React.js</p>
 
         <ul>
           <li>
@@ -32,7 +32,10 @@ export default function Home() {
           </li>
 
           <li>
-            <a>
+            <a href="https://drive.google.com/file/d/1Hc_5kH7oXOk3qFTK-L-EXExLWK2FPbqV/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+              >
               Curriculo <img src={vetor} />
             </a>
           </li>
@@ -42,7 +45,8 @@ export default function Home() {
           <p>Tenho 27 anos</p>
           <p>Sou de Aracaju-SE</p>
           <p>Estudo programação há 2 anos</p>
-          <p>Pretendo em breve terminar de me especializar em back-end</p>
+          <p>Pretendo em breve terminar de me especializar em back-end e me tornar uma Desenvolvedora FullStack</p>
+          <p>Tenho uma cachorra chamada Lilo</p>
         </div>
       </div>
     </MainHome>

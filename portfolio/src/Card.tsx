@@ -10,7 +10,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 20px;
   width: 100%;
-  padding-bottom:80px;
+  padding-bottom: 80px;
 
   div {
     display: flex;
@@ -22,40 +22,32 @@ export const Container = styled.div`
     margin-bottom: 10vh;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1023px){
-    
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    flex-wrap: wrap;
+    width: 100%;
+
+    .skill-div {
       flex-wrap: wrap;
       width: 100%;
-      
-    
-      .skill-div {
-        flex-wrap: wrap;
-      width: 100%;
-    
 
-      div{
-        width:30%;
-      }
+      div {
+        width: 30%;
       }
     }
-    @media screen and (max-width: 767px) {
-       
-       .skill-div {
-         flex-wrap: wrap;
-       width: 100%;
-     
- 
-       div {
-         width:45%;
-       }
-       }
-   }
+  }
+  @media screen and (max-width: 767px) {
+    .skill-div {
+      flex-wrap: wrap;
+      width: 100%;
 
-
-      
+      div {
+        width: 45%;
+      }
+    }
+  }
 `;
 export const Card = styled.div`
-  background-color: #EA8FEA;
+  background-color: #ea8fea;
   border-radius: 5px;
   padding: 15px;
   gap: 10px;
@@ -67,6 +59,4 @@ export const Card = styled.div`
   height: 20vh;
   font-size: 1.2em;
   text-align: end;
-  
- 
 `;

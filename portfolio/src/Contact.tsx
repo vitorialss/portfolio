@@ -24,10 +24,10 @@ export default function Contact() {
         <p>
           Preencha o formulário e entrarei em contato o mais rápido possível.
         </p>
-        <p>{nome}</p>
-        <form>
+        <form action="https://formsubmit.co/vick.leilanea@gmail.com" method="POST">
           <TextField
             label="Nome"
+            name="nome"
             type="text"
             value={nome}
             setStatus={setNome}
@@ -35,6 +35,7 @@ export default function Contact() {
 
           <TextField
             label="E-mail"
+            name="email"
             type="email"
             value={email}
             setStatus={setEmail}
@@ -42,12 +43,14 @@ export default function Contact() {
 
           <TextField
             label="Assunto"
+            name="assunto"
             type="text"
             value={assunto}
             setStatus={setAssunto}
           />
           <TextField
             label="Mensagem"
+            name="text"
             type="text"
             value={mensagem}
             setStatus={setMensagem}
